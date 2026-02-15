@@ -1,4 +1,4 @@
-baseURL: "https://mduffy23.github.io/"
+baseURL: "https://mduffy23.github.io/my-portfolio/"
 languageCode: "en-us"
 title: "Data Science Portfolio"
 theme: hugo-profile
@@ -74,7 +74,7 @@ params:
   title: "Data Science Portfolio"
   description: Personal Data Science Portfolio
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/penguinGlasses.png"
+  favicon: "penguinGlasses.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -149,7 +149,7 @@ params:
     title: "Matthew Duffy"
     subtitle: "Welcome to my data science portfolio!"
     content: "Feel free to connect with me on LinkedIn or peruse my GitHub if inclined."
-    image: /images/duffy.png
+    image: images/duffy.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -170,7 +170,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/desertduffy.png"
+    image: "images/desertduffy.png"
     content: |-
       I graduated from The University of Scranton in 2024 with degrees in Business Analytics and Philosophy while minoring in Computer Science and am currently working full-time as an Operations Analyst at Susquehanna International Group LLP. In my role, I use Python and SQL to quickly automate processes but also work on larger scale projects to improve our approach to tasks in C# and JavaScript. I simply want to make things better however I can and am always interested in picking up new skills and utilizing new tools to accomplish that goal.
 
@@ -340,7 +340,7 @@ params:
     items:
       - title: Sarcasm Detection
         content: A deployed fine-tuned transformer model for sarcasm detection.
-        image: /images/projects/upside-down-emoji.jpg
+        image: images/projects/upside-down-emoji.jpg
         featured:
           name: Try it out!
           link: https://huggingface.co/spaces/mduffy-23/sarcasm-detection
@@ -353,7 +353,7 @@ params:
 
       - title: Fantasy Football Database
         content: Fantasy football database construction with neural network modeling to predict winning a matchup.
-        image: /images/projects/yahoo.png
+        image: images/projects/yahoo.png
         #featured:
         #  name: Demo V2
         #  link: https://hugo-profile-2.netlify.app
@@ -366,7 +366,7 @@ params:
 
       - title: MLB Winning Analysis
         content: An exploration into what statistics MLB teams and baseball fans alike should care about.
-        image: /images/projects/mlb.png
+        image: images/projects/mlb.png
         #featured:
         #  name: Demo
         #  link: https://django-converter.herokuapp.com
@@ -379,7 +379,7 @@ params:
       
       - title: Socioeconomic Status and Education Analysis
         content: Analysis on how socioeconomic status can impact academic and long term success.
-        image: /images/projects/socioecon.png
+        image: images/projects/socioecon.png
         #featured:
         #  name: Demo V2
         #  link: https://hugo-profile-2.netlify.app
